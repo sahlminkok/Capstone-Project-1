@@ -125,9 +125,13 @@
 }
 
 .partner {
-  display: flex;
-  justify-content: space-evenly;
   padding-top: 1.563em;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(2, 40%);
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 26% 0;
+  justify-content: space-evenly;
 }
 
 .footer {
@@ -161,13 +165,15 @@
 
   #about-main-tit {
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .about-text {
     width: 70%;
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: #939393;
     padding: 35px 65px;
   }
 
@@ -229,12 +235,17 @@
     font-size: 1.2rem;
   }
 
+  .partner {
+    display: flex;
+    flex-direction: row;
+  }
+
   .partners h3 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 
   .partner img {
-    width: 200px;
+    width: 150%;
   }
 
   .footer {

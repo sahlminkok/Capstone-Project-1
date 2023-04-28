@@ -170,7 +170,7 @@ body {
 .agencies {
   display: flex;
   flex-direction: column;
-  gap: 0.2em;
+  gap: 0.5em;
   padding-bottom: 1.9em;
 }
 
@@ -302,8 +302,8 @@ body {
     line-height: 14px;
   }
 
-  .desktop-nav2 img {
-    width: 25%;
+  #main-logo {
+    width: 50%;
   }
 
   .dir-img img {
@@ -390,8 +390,7 @@ body {
 
   .agencies {
     flex-direction: row;
-    margin-left: 5%;
-    width: 90%;
+    margin: 0 auto;
     justify-content: center;
     text-align: center;
   }
@@ -403,7 +402,7 @@ body {
     padding: 20px;
     width: 200px;
     height: 270px;
-    gap: 0.5em;
+    gap: 0.1em;
   }
 
   .contact {
