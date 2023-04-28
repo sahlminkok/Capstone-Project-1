@@ -4,17 +4,12 @@ const menu = document.querySelector('#menu');
 const mobileMenu = document.querySelector('.mobile-menu');
 const cancel = document.querySelector('#cancel');
 
-function display() {
+function toggleMenu() {
   mobileMenu.classList.toggle('hidden');
 }
 
-menu.addEventListener('click', display);
-
-function hide() {
-  mobileMenu.classList.toggle('hidden');
-}
-
-cancel.addEventListener('click', hide);
+menu.addEventListener('click', toggleMenu);
+cancel.addEventListener('click', toggleMenu);
 
 const directors = [
   {
