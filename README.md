@@ -54,7 +54,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **LOOM Video (https://www.loom.com/share/2172e298f39d4217af7f5b878f94122a)**
+- **[Walk through Video](https://www.loom.com/share/0e0c1485271e4613afc2fb1162336873)**
 - **Error Free**
 - **Responsive and User Freindly**
 - **Mobile First Design**
