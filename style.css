@@ -147,6 +147,7 @@ body {
   font-weight: 700;
   font-size: 0.9rem;
   line-height: 25px;
+  width: 20%;
 }
 
 .leadership h3 {
@@ -212,6 +213,7 @@ body {
   line-height: 22px;
   color: #fff;
   letter-spacing: 0.06em;
+  width: 60%;
 }
 
 .contact {
@@ -399,10 +401,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     height: 270px;
-    gap: 0.1em;
+  }
+
+  .agency1 h3 {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .agency1 p {
+    width: 100%;
   }
 
   .contact {
