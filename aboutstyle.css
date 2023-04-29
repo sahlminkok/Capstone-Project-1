@@ -1,0 +1,263 @@
+.main-sect {
+  background-image: url(images/hero_container.svg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+#title {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about-text {
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  background-color: #fff;
+  padding: 20px 12px;
+  text-align: center;
+}
+
+.contact-us {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  color: #7a7a7a;
+  text-align: center;
+}
+
+.minister {
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 35px;
+  background-color: #fff;
+}
+
+.minister h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.minister p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #838383;
+  padding-top: 20px;
+  width: 95%;
+  margin: auto;
+}
+
+.ministry-logo {
+  background-color: #272a31;
+}
+
+.ministry-logo img {
+  padding-top: 10%;
+  width: 50%;
+  margin: 0 25%;
+  padding-bottom: 10%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #fafafa;
+  background-color: #fff;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.projects h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2c2c2c;
+}
+
+.projects p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: #838383;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.project {
+  background:
+    linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),
+    url(images/confrence.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px;
+  margin: 35px 10%;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.project p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.partners {
+  background-color: #272a31;
+  padding-bottom: 2.5em;
+}
+
+.partners h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  padding-top: 1.25em;
+}
+
+.partner {
+  padding-top: 1.563em;
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(2, 40%);
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 26% 0;
+  justify-content: space-evenly;
+}
+
+.footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer img {
+  width: 50px;
+}
+
+.footer p {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #3b3e45;
+}
+
+@media screen and (min-width: 48em) {
+  .main-sect {
+    background-image: url(images/mainbackground.png);
+  }
+
+  #title {
+    width: 70%;
+  }
+
+  #about-main-tit {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-text {
+    width: 70%;
+    margin: auto;
+    font-size: 1rem;
+    color: #939393;
+    padding: 35px 65px;
+  }
+
+  .contact-us {
+    font-size: 1rem;
+    padding-bottom: 100px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .minister {
+    width: 60%;
+    margin: auto;
+  }
+
+  .minister h3 {
+    font-size: 1.5rem;
+  }
+
+  .minister p {
+    font-size: 1.1rem;
+  }
+
+  .ministry-logo {
+    width: 40%;
+    margin: auto;
+  }
+
+  .ministry-logo img {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .projects h3 {
+    font-size: 1.5rem;
+  }
+
+  .projects p {
+    font-size: 1.1rem;
+  }
+
+  .projects-sec {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .project {
+    margin: 35px 0;
+    padding: 70px;
+  }
+
+  .project h3 {
+    font-size: 2.5rem;
+  }
+
+  .project p {
+    font-size: 1.2rem;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partners h3 {
+    font-size: 1.5rem;
+  }
+
+  .partner img {
+    width: 150%;
+  }
+
+  .footer {
+    justify-content: space-evenly;
+  }
+
+  .footer img {
+    width: 100px;
+  }
+
+  .footer p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
