@@ -157,6 +157,11 @@ body {
   text-align: center;
 }
 
+.agency1 h3 {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
 .mission-vision h3:nth-of-type(2) {
   padding-top: 18px;
 }
@@ -404,11 +409,6 @@ body {
     padding: 10px;
     width: 200px;
     height: 270px;
-  }
-
-  .agency1 h3 {
-    width: 100%;
-    font-size: 1.2rem;
   }
 
   .agency1 p {
